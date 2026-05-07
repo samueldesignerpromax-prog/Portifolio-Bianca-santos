@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bianca Barbosa | Cursos</title>
+    <title>Bianca Barbosa | Contato</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -21,8 +21,8 @@
             <ul class="nav-menu">
                 <li><a href="index.html">Início</a></li>
                 <li><a href="experiencia.html">Experiência</a></li>
-                <li><a href="cursos.html" class="active">Cursos</a></li>
-                <li><a href="contato.html">Contato</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="contato.html" class="active">Contato</a></li>
             </ul>
             <div class="mobile-menu">
                 <i class="fas fa-bars"></i>
@@ -32,84 +32,76 @@
 
     <section class="page-header">
         <div class="container">
-            <h1>Cursos Complementares</h1>
+            <h1>Contato</h1>
             <div class="breadcrumb">
-                <a href="index.html">Início</a> <span>/</span> <span>Cursos</span>
+                <a href="index.html">Início</a> <span>/</span> <span>Contato</span>
             </div>
         </div>
     </section>
 
-    <section class="cursos-section">
+    <section class="contato-section">
         <div class="container">
-            <div class="cursos-grid">
-                <div class="curso-card">
-                    <div class="curso-icon">
-                        <i class="fas fa-chart-line"></i>
+            <div class="contato-grid">
+                <div class="contato-card">
+                    <div class="contato-icon">
+                        <i class="fas fa-map-marker-alt"></i>
                     </div>
-                    <h3>Administração</h3>
-                    <span class="status concluido">Concluído</span>
+                    <h3>Endereço</h3>
+                    <p>Jardim das Oliveiras – São Paulo/SP</p>
                 </div>
 
-                <div class="curso-card">
-                    <div class="curso-icon">
-                        <i class="fas fa-users"></i>
+                <div class="contato-card">
+                    <div class="contato-icon">
+                        <i class="fas fa-phone-alt"></i>
                     </div>
-                    <h3>Recursos Humanos</h3>
+                    <h3>Telefones</h3>
+                    <p>(11) 99275-8014</p>
+                    <p>(11) 99500-1607</p>
                 </div>
 
-                <div class="curso-card">
-                    <div class="curso-icon">
-                        <i class="fas fa-file-word"></i>
-                    </div>
-                    <h3>Microsoft Word 2016</h3>
-                </div>
-
-                <div class="curso-card">
-                    <div class="curso-icon">
-                        <i class="fas fa-table"></i>
-                    </div>
-                    <h3>Excel – Intermediário</h3>
-                </div>
-
-                <div class="curso-card">
-                    <div class="curso-icon">
-                        <i class="fas fa-chalkboard"></i>
-                    </div>
-                    <h3>PowerPoint – Intermediário</h3>
-                </div>
-
-                <div class="curso-card">
-                    <div class="curso-icon">
+                <div class="contato-card">
+                    <div class="contato-icon">
                         <i class="fas fa-envelope"></i>
                     </div>
-                    <h3>Outlook – Avançado</h3>
+                    <h3>E-mail</h3>
+                    <p>biancbarbosaa840@gmail.com</p>
+                    <a href="mailto:biancbarbosaa840@gmail.com" class="contato-btn">
+                        <i class="fas fa-paper-plane"></i> Enviar E-mail
+                    </a>
+                </div>
+
+                <div class="contato-card">
+                    <div class="contato-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>WhatsApp</h3>
+                    <p>(11) 99275-8014</p>
+                    <a href="https://wa.me/5511992758014" target="_blank" class="contato-btn whatsapp">
+                        <i class="fab fa-whatsapp"></i> Iniciar Conversa
+                    </a>
                 </div>
             </div>
 
-            <div class="qualificacoes-section">
-                <h2><i class="fas fa-star"></i> Qualificações</h2>
-                <div class="qualificacoes-grid">
-                    <div class="qualificacao-item">
-                        <i class="fas fa-brain"></i>
-                        <span>Facilidade em aprender</span>
+            <div class="form-contato">
+                <h2><i class="fas fa-comment-dots"></i> Envie uma mensagem</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="nome" placeholder="Seu nome" required>
                     </div>
-                    <div class="qualificacao-item">
-                        <i class="fas fa-comments"></i>
-                        <span>Boa comunicação</span>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Seu e-mail" required>
                     </div>
-                    <div class="qualificacao-item">
-                        <i class="fas fa-handshake"></i>
-                        <span>Trabalho em equipe e individual</span>
+                    <div class="form-group">
+                        <input type="tel" id="telefone" placeholder="Seu telefone">
                     </div>
-                    <div class="qualificacao-item">
-                        <i class="fas fa-rocket"></i>
-                        <span>Proativa</span>
+                    <div class="form-group">
+                        <textarea id="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
                     </div>
-                    <div class="qualificacao-item">
-                        <i class="fas fa-clock"></i>
-                        <span>Pontual e organizada</span>
-                    </div>
-                </div>
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-paper-plane"></i> Enviar Mensagem
+                    </button>
+                </form>
+                <div id="formMessage" class="form-message"></div>
             </div>
         </div>
     </section>
