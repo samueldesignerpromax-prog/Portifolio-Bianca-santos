@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bianca Barbosa | Contato</title>
+    <title>Bianca Barbosa | Cursos</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -16,15 +16,13 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="logo">
-                <span class="logo-text">B<span class="gold">.</span>Barbosa</span>
+                <span class="logo-text">Bianca<span class="gold">Barbosa</span></span>
             </div>
             <ul class="nav-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="index.html">Início</a></li>
                 <li><a href="experiencia.html">Experiência</a></li>
-                <li><a href="cursos.html">Cursos</a></li>
-                <li><a href="qualificacoes.html">Qualificações</a></li>
-                <li><a href="contato.html" class="active">Contato</a></li>
+                <li><a href="cursos.html" class="active">Cursos</a></li>
+                <li><a href="contato.html">Contato</a></li>
             </ul>
             <div class="mobile-menu">
                 <i class="fas fa-bars"></i>
@@ -34,69 +32,83 @@
 
     <section class="page-header">
         <div class="container">
-            <h1>Contato</h1>
+            <h1>Cursos Complementares</h1>
             <div class="breadcrumb">
-                <a href="index.html">Home</a> <span>/</span> <span>Contato</span>
+                <a href="index.html">Início</a> <span>/</span> <span>Cursos</span>
             </div>
         </div>
     </section>
 
-    <section class="contact-section">
+    <section class="cursos-section">
         <div class="container">
-            <div class="contact-grid">
-                <div class="contact-info">
-                    <div class="contact-card">
-                        <div class="contact-icon">
-                            <i class="fab fa-whatsapp"></i>
-                        </div>
-                        <h3>WhatsApp</h3>
-                        <p>(11) 9XXXX-XXXX</p>
-                        <a href="https://wa.me/5511999999999" target="_blank" class="contact-btn whatsapp">
-                            <i class="fab fa-whatsapp"></i> Iniciar Conversa
-                        </a>
+            <div class="cursos-grid">
+                <div class="curso-card">
+                    <div class="curso-icon">
+                        <i class="fas fa-chart-line"></i>
                     </div>
-
-                    <div class="contact-card">
-                        <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <h3>Email</h3>
-                        <p>bianca.barbosa@email.com</p>
-                        <a href="mailto:bianca.barbosa@email.com" class="contact-btn email">
-                            <i class="fas fa-envelope"></i> Enviar Email
-                        </a>
-                    </div>
-
-                    <div class="contact-card">
-                        <div class="contact-icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <h3>Localização</h3>
-                        <p>São Paulo, SP</p>
-                        <span class="availability">Disponível para Híbrido/Presencial</span>
-                    </div>
+                    <h3>Administração</h3>
+                    <span class="status concluido">Concluído</span>
                 </div>
 
-                <div class="contact-form">
-                    <h2>Envie uma Mensagem</h2>
-                    <form id="contactForm">
-                        <div class="form-group">
-                            <input type="text" id="nome" placeholder="Seu nome" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" id="email" placeholder="Seu e-mail" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="tel" id="telefone" placeholder="Seu telefone">
-                        </div>
-                        <div class="form-group">
-                            <textarea id="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
-                        </div>
-                        <button type="submit" class="submit-btn">
-                            <i class="fas fa-paper-plane"></i> Enviar Mensagem
-                        </button>
-                    </form>
-                    <div id="formMessage" class="form-message"></div>
+                <div class="curso-card">
+                    <div class="curso-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Recursos Humanos</h3>
+                </div>
+
+                <div class="curso-card">
+                    <div class="curso-icon">
+                        <i class="fas fa-file-word"></i>
+                    </div>
+                    <h3>Microsoft Word 2016</h3>
+                </div>
+
+                <div class="curso-card">
+                    <div class="curso-icon">
+                        <i class="fas fa-table"></i>
+                    </div>
+                    <h3>Excel – Intermediário</h3>
+                </div>
+
+                <div class="curso-card">
+                    <div class="curso-icon">
+                        <i class="fas fa-chalkboard"></i>
+                    </div>
+                    <h3>PowerPoint – Intermediário</h3>
+                </div>
+
+                <div class="curso-card">
+                    <div class="curso-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Outlook – Avançado</h3>
+                </div>
+            </div>
+
+            <div class="qualificacoes-section">
+                <h2><i class="fas fa-star"></i> Qualificações</h2>
+                <div class="qualificacoes-grid">
+                    <div class="qualificacao-item">
+                        <i class="fas fa-brain"></i>
+                        <span>Facilidade em aprender</span>
+                    </div>
+                    <div class="qualificacao-item">
+                        <i class="fas fa-comments"></i>
+                        <span>Boa comunicação</span>
+                    </div>
+                    <div class="qualificacao-item">
+                        <i class="fas fa-handshake"></i>
+                        <span>Trabalho em equipe e individual</span>
+                    </div>
+                    <div class="qualificacao-item">
+                        <i class="fas fa-rocket"></i>
+                        <span>Proativa</span>
+                    </div>
+                    <div class="qualificacao-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Pontual e organizada</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -104,12 +116,7 @@
 
     <footer class="footer">
         <div class="footer-content">
-            <p>&copy; 2024 Bianca Barbosa - Todos os direitos reservados</p>
-            <div class="social-links">
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-            </div>
+            <p>&copy; 2024 Bianca dos Santos Barbosa - Todos os direitos reservados</p>
         </div>
     </footer>
 
